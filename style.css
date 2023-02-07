@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #2C3E50;
+}
+
+.topbar-logo {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    padding: 12.5px 0;
+}
+
+.topbar-nav {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.topbar-nav a {
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 14px;
+    margin: 0 12px;
+}
+
+.topbar-nav a:hover, .topbar-nav a.active {
+    color: white;
+    transition: color .3s;
+}
+
+.container {
+    padding: 0 18px;
+    padding-top: 12px;
+    max-width: 1050px;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar a {
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 12px;
+    width: 50%;
+    padding: 0.6em 0;
+}
+
+.sidebar a::before {
+    content: '';
+    margin-right: 20px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-top: -1px;
+    background: url(img/home.svg) center center/contain no-repeat;
+}
+
+.sidebar .sidebar-home::before {
+    background-image: url(img/home.svg);
+}
+
+.sidebar .sidebar-message::before {
+    background-image: url(img/message.svg);
+}
+
+.sidebar .sidebar-event::before {
+    background-image: url(img/event.svg);
+}
+
+.sidebar .sidebar-groupe-amis::before {
+    background-image: url(img/groupe-amis.svg);
+}
+
+.sidebar a:hover, .sidebar a.active {
+    color: black
+}
+
+@media only screen and (min-width: 520px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        padding: 0 25px;
+    }
+    .topbar-logo, .topbar-nav {
+        padding: 0;
+    }
+    .topbar-nav a {
+        margin: 0 20px;
+    }
+}
