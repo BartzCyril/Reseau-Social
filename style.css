@@ -69,23 +69,23 @@ a {
     vertical-align: middle;
     margin-top: -1px;
     opacity: 0.67;
-    background: url(img/home.svg) center center/contain no-repeat;
+    background: url(/img/home.svg) center center/contain no-repeat;
 }
 
 .sidebar .sidebar-home::before {
-    background-image: url(img/home.svg);
+    background-image: url(/img/home.svg);
 }
 
 .sidebar .sidebar-message::before {
-    background-image: url(img/message.svg);
+    background-image: url(/img/message.svg);
 }
 
 .sidebar .sidebar-event::before {
-    background-image: url(img/event.svg);
+    background-image: url(/img/event.svg);
 }
 
 .sidebar .sidebar-groupe-amis::before {
-    background-image: url(img/groupe-amis.svg);
+    background-image: url(/img/groupe-amis.svg);
 }
 
 .sidebar a:hover,
@@ -169,7 +169,7 @@ a {
     vertical-align: middle;
     margin-right: 5px;
     margin-top: -1px;
-    background: url(img/like.svg) center center / 20px 18px no-repeat;
+    background: url(/img/like.svg) center center / 20px 18px no-repeat;
 }
 
 .card-footer-comment::before {
@@ -180,7 +180,7 @@ a {
     vertical-align: middle;
     margin-right: 5px;
     margin-top: -1px;
-    background: url(img/comment.svg) center center / 20px 18px no-repeat;
+    background: url(/img/comment.svg) center center / 20px 18px no-repeat;
 }
 
 article:not(:first-child) {
