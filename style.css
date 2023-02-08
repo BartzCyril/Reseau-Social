@@ -256,7 +256,7 @@ article:not(:first-child) {
     vertical-align: middle;
     margin-right: 3px;
     margin-top: -1px;
-    background: url(img/addfriend.svg) center center / 17px 13px no-repeat;
+    background: url(/img/addfriend.svg) center center / 17px 13px no-repeat;
 }
 
 @media only screen and (min-width: 520px) {
